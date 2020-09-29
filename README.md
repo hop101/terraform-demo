@@ -11,6 +11,17 @@ Aws Provider:
 https://registry.terraform.io/providers/hashicorp/aws/latest/docs
 
 
+-----------
+Terraform is an open-source infrastructure as code software tool created by HashiCorp.
+It enables users to define and provision a datacenter infrastructure using a high-level configuration language known as Hashicorp Configuration Language (HCL), or optionally JSON.
+
+Terraform supports a number of cloud infrastructure providers such as Amazon Web Services, IBM Cloud, Google Cloud Platform, Linode,
+Microsoft Azure, Oracle Cloud Infrastructure, or VMware vSphere as well as OpenStack.
+
+Write, Plan, and Create Infrastructure as Code by terraform.
+-----------
+
+
 
 
 #installation 
@@ -29,6 +40,7 @@ terraform -version
 
 Class1 :
   
+  Agenda ==> Automatic provisioning of Ghost platform using Docker containers in Terraform
 
   Docker + Terraform
 
@@ -47,7 +59,7 @@ Class1 :
 
 
 
-Agenda ==> Creation of 
+
 
 
 Class 2:
