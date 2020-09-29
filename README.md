@@ -1,4 +1,13 @@
 # terraform-demo
+-----------
+Terraform is an open-source infrastructure as code software tool created by HashiCorp.
+It enables users to define and provision a datacenter infrastructure using a high-level configuration language known as Hashicorp Configuration Language (HCL), or optionally JSON.
+
+Terraform supports a number of cloud infrastructure providers such as Amazon Web Services, IBM Cloud, Google Cloud Platform, Linode,
+Microsoft Azure, Oracle Cloud Infrastructure, or VMware vSphere as well as OpenStack.
+
+Write, Plan, and Create Infrastructure as Code by terraform.
+-----------
 
 
 Docker provider:
@@ -11,21 +20,20 @@ Aws Provider:
 https://registry.terraform.io/providers/hashicorp/aws/latest/docs
 
 
------------
-Terraform is an open-source infrastructure as code software tool created by HashiCorp.
-It enables users to define and provision a datacenter infrastructure using a high-level configuration language known as Hashicorp Configuration Language (HCL), or optionally JSON.
-
-Terraform supports a number of cloud infrastructure providers such as Amazon Web Services, IBM Cloud, Google Cloud Platform, Linode,
-Microsoft Azure, Oracle Cloud Infrastructure, or VMware vSphere as well as OpenStack.
-
-Write, Plan, and Create Infrastructure as Code by terraform.
------------
 
 
-
-
-#installation 
+#installation of Terraform on Amazon Linux 
 ----------------------------------------------
+Prerequests: 
+
+1. Provision and Ec2 Instance 
+2. Create a Role with Administrator access
+3. Attach this Role to Instance
+----------------------------------------------
+sudo yum update -y
+
+yum install wget -y
+
 wget https://releases.hashicorp.com/terraform/0.11.13/terraform_0.11.13_linux_amd64.zip
 
 unzip terraform_0.11.13_linux_amd64.zip
