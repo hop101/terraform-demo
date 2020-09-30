@@ -75,7 +75,29 @@ Class 2:
    AWS + Terraform
 
    Contents: 
-
+    1. Creating a ec2_instance 
+    2. Creating a Security_group
+    3. Creating a ec2_instance with Best_practises
+    4. Creating a Apache Webserver { bash_script as userdata }
+    5. Executing a Script on creation of EC2_Instance.
+    6. Terraform Workspaces
+    7. Creation and Deletion of Specific Resources using target
+    8. Data Sources
+    
+    
+    Commands used in this Class:
+     
+     Creating a Workspace:  
+     ```
+     terraform workspace create testing
+     ```
+     List Workspaces:
+     ```
+     terraform workspace list
+     ```
+     
+        
+        
 
 
 
