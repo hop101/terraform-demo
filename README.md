@@ -88,13 +88,13 @@ Class 2:
     Commands used in this Class:
      
      Creating a Workspace:  
-     ```
+     
      terraform workspace create testing
-     ```
+     
      List Workspaces:
-     ```
+     
      terraform workspace list
-     ```
+    
      
         
         
