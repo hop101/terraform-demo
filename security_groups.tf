@@ -1,7 +1,7 @@
 resource "aws_security_group" "web" {
-  name        = "web_sg_demo"
+  name        = "web_sg"
   description = "Allow TLS inbound traffic"
-  vpc_id      = "vpc-0a33a707be3f447a6"
+  vpc_id      = "vpc-73819009"
 
   ingress {
     # TLS (change to whatever ports you need)
